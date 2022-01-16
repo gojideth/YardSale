@@ -50,50 +50,46 @@ body {
 .form input {
   border: none;
   border-radius: 8px;
-  background-color: var(--text-input-field);  
+  background-color: var(--text-input-field);
   padding: 8px;
   margin-bottom: 12px;
   font-size: var(--md);
   height: 54px;
-  
 }
 
-.form input::placeholder{
-    color: var(--very-light-pink);
-    font-size: var(--sm);
-    
+.form input::placeholder {
+  color: var(--very-light-pink);
+  font-size: var(--sm);
 }
 
 .login-button {
-    border-radius: 8px;
-    border: none;
-    background-color: var(--hospital-green);
-    width: 100%;
-    height: 58px;
-    color: var(--white);
-    cursor: pointer;
-    font-weight: bold;
-    font-size: var(--md);
-
+  border-radius: 8px;
+  border: none;
+  background-color: var(--hospital-green);
+  width: 100%;
+  height: 58px;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: var(--md);
 }
 
-.forgot-password{
-    text-align: center;
-    color: var(--hospital-green);
-    font-weight: bold;
-    margin-top: 40px;
+.forgot-password {
+  text-align: center;
+  color: var(--hospital-green);
+  font-weight: bold;
+  margin-top: 40px;
 }
 
 .signup-button {
-    border-radius: 8px;
-    border: none;
-    background-color: var(--white);
-    border: 1px solid var(--hospital-green) ;
-    width: 100%;
-    height: 58px;
-    color: var(--hospital-green);
-    cursor: pointer;
-    font-weight: bold;
-    font-size: var(--md);
-
+  border-radius: 8px;
+  border: none;
+  background-color: var(--white);
+  border: 1px solid var(--hospital-green);
+  width: 100%;
+  height: 58px;
+  color: var(--hospital-green);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: var(--md);
 }
